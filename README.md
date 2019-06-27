@@ -1,8 +1,10 @@
 **전역 사용자명/ 이메일 구성하기
+
 git config --global user.name "YOUR_NAME"
 git config --global user.email "YOUR_EMAIL_ADDRESS"
 
 **저장소별 사용자명/ 이메일 구성하기 (해당 저장소 디렉토리로 이동 후)
+
 git config user.name "YOUR_NAME"
 git config user.email "YOUR_EMAIL_ADDRESS"
 
@@ -11,26 +13,33 @@ git config user.email "YOUR_EMAIL_ADDRESS"
 **웬만하면name과 email 주소를 설정하길 추천한다.
 
 **전역 설정 정보 조회
+
 git config --global --list
 
 **저장소별 설정 정보 조회
+
 git config --list
 
 **Git의 출력 결과 색상 활성화하기
+
 git config --global color.ui "auto"
 
 **새로운 저장소 초기화하기
+
 mkdir /path/newDir
 cd /path/newDir
 git init
 
 **저장소 복제하기
+
 git clone <저장소 url>
 
 **새로운 원격 저장소 추가하기
+
 git remote add <원격 저장소> <저장소 url>
 
 **새로운 파일을 추가하거나 존재하는 파일 staging하고 commit하기
+
 git add <파일>
 git commit -m "<msg>"
 
@@ -293,6 +302,7 @@ git remote prune <원격 저장소>
 
 git remote rm <원격 저장소>
 
-위에 작성된 명령어들은 주로 사용될만한 명령어들이고 이외에도 git 의 명령어는 상당히 많다. 더 다양한 사용법들을 알아보고자 한다면 아래 링크에서 확인하면 된다.
+위에 작성된 명령어들은 주로 사용될만한 명령어들이고 이외에도 git 의 명령어는 상당히 많다. 
+더 다양한 사용법들을 알아보고자 한다면 아래 링크에서 확인하면 된다.
 
 출처 : https://medium.com/@joongwon/git-git-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%A0%95%EB%A6%AC-c25b421ecdbd
