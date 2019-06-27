@@ -1,11 +1,11 @@
 **전역 사용자명/ 이메일 구성하기
 
-git config --global user.name "YOUR_NAME"
+git config --global user.name "YOUR_NAME"\n
 git config --global user.email "YOUR_EMAIL_ADDRESS"
 
 **저장소별 사용자명/ 이메일 구성하기 (해당 저장소 디렉토리로 이동 후)
 
-git config user.name "YOUR_NAME"
+git config user.name "YOUR_NAME"\n
 git config user.email "YOUR_EMAIL_ADDRESS"
 
 **참고로 user 설정이 되어있지 않으면 Github에 있는 repository에 변경사하을 push 한다고 해도
