@@ -1,9 +1,13 @@
 **전역 사용자명/ 이메일 구성하기
+
 git config --global user.name "YOUR_NAME"
+
 git config --global user.email "YOUR_EMAIL_ADDRESS"
 
 **저장소별 사용자명/ 이메일 구성하기 (해당 저장소 디렉토리로 이동 후)
+
 git config user.name "YOUR_NAME"
+
 git config user.email "YOUR_EMAIL_ADDRESS"
 
 **참고로 user 설정이 되어있지 않으면 Github에 있는 repository에 변경사하을 push 한다고 해도
@@ -11,27 +15,37 @@ git config user.email "YOUR_EMAIL_ADDRESS"
 **웬만하면name과 email 주소를 설정하길 추천한다.
 
 **전역 설정 정보 조회
+
 git config --global --list
 
 **저장소별 설정 정보 조회
+
 git config --list
 
 **Git의 출력 결과 색상 활성화하기
+
 git config --global color.ui "auto"
 
 **새로운 저장소 초기화하기
+
 mkdir /path/newDir
+
 cd /path/newDir
+
 git init
 
 **저장소 복제하기
+
 git clone <저장소 url>
 
 **새로운 원격 저장소 추가하기
+
 git remote add <원격 저장소> <저장소 url>
 
 **새로운 파일을 추가하거나 존재하는 파일 staging하고 commit하기
+
 git add <파일>
+
 git commit -m "<msg>"
 
 **파일의 일부를 스테이징하기
@@ -66,7 +80,7 @@ git commit -m “<메시지>” **-amend
 
 git commit -C HEAD **-amend
 
-3. 브랜치
+- 브랜치
 
 **지역 브랜치 목록 보기
 
@@ -139,7 +153,7 @@ git branch -D <삭제할 브랜치>
 
 **삭제할 브랜치가 현재 브랜치에 합쳐지지 않았어도
 
-4. Git 이력
+- Git 이력
 
 **모든 이력 보기
 
